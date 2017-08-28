@@ -5,13 +5,15 @@
 " load plugins from vundle
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
-" let vundle manage vundle
-Plugin 'gmarik/vundle'
+" let vundle manage vundle not sure about below	:wq
+
+"  Plugin 'gmarik/vundle'
 
 " utilities
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim' " fuzzy find files
 Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'benmills/vimux'
