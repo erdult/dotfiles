@@ -1,0 +1,49 @@
+
+
+https://gist.github.com/MohamedAlaa/2961058
+tmux
+start new with session name:
+tmux new -s myname
+attach:
+tmux a  #  (or at, or attach)
+attach to named:
+tmux a -t myname
+
+prefix s    list sessions
+prefix $	name the session
+
+prefix | split left
+
+
+prefix [ copy mode
+prefix ] paste
+
+
+copy mode:
+space select
+y yanks into clipboard
+Y yanks pwd into clipboard
+
+copy mode:
+space select
+y yanks into clipboard
+
+https://github.com/tmux-plugins/tmux-yank
+
+
+
+
+--------------
+vim 
+silent leader is comma by default
+ctrl w S split horizantol
+
+
+--------
+git
+
+git add
+git commit
+
+
+git push sends it into github
