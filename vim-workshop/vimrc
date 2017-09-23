@@ -16,10 +16,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim' " fuzzy find files
 Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
-Plugin 'benmills/vimux'
-Plugin 'tpope/vim-fugitive' " the ultimate git helper
-Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
-Plugin 'jalvesaq/Nvim-R'
+Plugin 'python-mode/python-mode'
+"Plugin 'benmills/vimux'
+"Plugin 'tpope/vim-fugitive' " the ultimate git helper
+"Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
+"Plugin 'jalvesaq/Nvim-R'
 "Plugin 'vim-scripts/Vim-R-plugin'
 
 Plugin 'ervandew/screen'
@@ -166,3 +167,6 @@ let g:ctrlp_working_path_mode = 2
 let R_in_buffer = 0
 let R_applescript = 0
 let R_tmux_split = 1
+
+
+
