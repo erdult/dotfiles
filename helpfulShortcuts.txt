@@ -42,8 +42,19 @@ ctrl w S split horizantol
 move end of line 
 Just the $ (dollar sign) key. You can use A to move to the end of the line and switch to editing mode (Append).
 The opposite of A is I (Insert mode at beginning of line), as an aside.
+c-o go previous edit
+c-i go forward edit
+
+
+,c<space> toogle comment of selected 
+
+Go to definition (<C-c>g for :RopeGotoDefinition)
+
+
+
 
 --------
+
 git
 
 git add
